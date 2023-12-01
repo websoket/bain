@@ -19,12 +19,12 @@
 </head>
 <body>
     <h1 style="font-family: 'Roboto Condensed', sans-serif;">Welcome to the Wirry Je Socket website</h1>
-    <p onclick="changeText()">Clicke.</p>
+    <p style="font-family: 'Roboto Condensed', sans-serif;onclick="changeText()">Clicke.</p>
 
     <script>
         function changeText() {
             var paragraph = document.querySelector('p');
-            if (paragraph.innerHTML === "Click me to change text.") {
+            if (paragraph.innerHTML === "Clicke.") {
                 paragraph.innerHTML = "Aha!";
                 paragraph.style.color = "blue"; // Optional: change text color
             } else {
