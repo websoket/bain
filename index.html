@@ -15,23 +15,17 @@
         p {
             font-size: 27px; /* Adjust the font size for paragraphs */
         }
+
+        .clicke {
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
-    <h1 style="font-family: 'Roboto Condensed', sans-serif;">Welcome to the Wirry Je Socket website</h1>
-    <p onclick="changeText()" style="font-family: 'Roboto Condensed', sans-serif;>Clicke.</p>
+    <script src="index.js"></script>
 
-    <script>
-        function changeText() {
-            var paragraph = document.querySelector('p');
-            if (paragraph.innerHTML === "Clicke.") {
-                paragraph.innerHTML = "Aha!";
-                paragraph.style.color = "blue"; // Optional: change text color
-            } else {
-                paragraph.innerHTML = "Click me to change text.";
-                paragraph.style.color = ""; // Reset text color
-            }
-        }
-    </script>
+    <h1 style="font-family: 'Roboto Condensed', sans-serif;">Welcome to the Wirry Je Socket website</h1>
+    <p onclick="changeText()" class="clicke" style="font-family: 'Roboto Condensed', sans-serif;">Clicke.</p>
+
 </body>
 </html>
