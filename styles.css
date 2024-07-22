@@ -5,3 +5,7 @@ body{
     background-attachment: fixed;
     font-family: "Lucida Mono", monospace;
 }
+
+p {
+    color: white;
+}
