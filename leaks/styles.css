@@ -1,8 +1,11 @@
 body {
   font-family: "Courier New", monospace;
-  position: absolute;
 }
 
 .div-right {
   text-align: right;
+}
+
+.indiv {
+  position: absolute;
 }
