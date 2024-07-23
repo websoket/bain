@@ -1,10 +1,13 @@
 body {
   font-family: "Courier New", monospace;
-  colour: white;
 }
 
 .div-right {
   position: absolute;
   right: 100px;
 
+}
+
+p {
+  colour: white;
 }
