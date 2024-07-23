@@ -1,15 +1,8 @@
 body {
   font-family: "Courier New", monospace;
+  position: absolute;
 }
 
 .div-right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start; /* Optional: Align items to the top */
-  padding: 20px; /* Optional: Add padding for spacing */
-}
-
-.div-right img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  height: auto; /* Maintain aspect ratio */
+  text-align: right;
 }
