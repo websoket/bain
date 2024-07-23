@@ -4,7 +4,7 @@ function changeText() {
 
     if (paragraph.innerHTML == "Clicke.") {
         paragraph.innerHTML = "Aha!";
-        paragraph.style.color = "blue"; // Optional: change text color
+        paragraph.style.color = "yellow"; // Optional: change text color
         console.log(Math.random());
         if ((Math.random()) > 0.95){
             window.location = "/src"
