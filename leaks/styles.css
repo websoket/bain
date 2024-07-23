@@ -3,9 +3,7 @@ body {
 }
 
 .div-right {
-  text-align: right;
-}
-
-.indiv {
   position: absolute;
+  right: 100px;
+
 }
