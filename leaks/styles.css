@@ -1,5 +1,7 @@
 body {
   background-color: black;
+}
 
-
+.div-right {
+  text-align: right;
 }
