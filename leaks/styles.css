@@ -1,8 +1,7 @@
 body {
-  background-color: black;
+  font-family: "Courier New", monospace;
 }
 
 .div-right {
   text-align: right;
-  font-family: "Courier New", monospace;
 }
