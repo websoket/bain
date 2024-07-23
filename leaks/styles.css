@@ -2,10 +2,10 @@ body {
   font-family: "Courier New", monospace;
 }
 
-.div-right {
+.above {
   position: absolute;
   right: 100px;
-
+  top: 100px;
 }
 
 p {
