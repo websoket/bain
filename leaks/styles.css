@@ -9,6 +9,6 @@ body {
   top: 100px;
 }
 
-p {
-  colour: white;
+span {
+  background-colour: white;
 }
